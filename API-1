@@ -1,0 +1,59 @@
+1. ANS: API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.
+Real life Example:
+    1. we use API server everyday in our lives. Whenever we search something in google, google than collect the data from that spacific fields and give it to us the whole infomation
+    As a example, when we search in google today's weather? Then the web browser collect data about weather from different weather reports shows sites and displays us options of choices.
+
+2. ANS: API TESTING is a software testing type that validates Application Programming Interfaces (APIs). The purpose of API Testing is to check the functionality, reliability, performance,
+and security of the programming interfaces. In API Testing, instead of using standard user inputs(keyboard) and outputs, you use software to send calls to the API, get output, and note
+down the system’s response.
+     Name some type of testing:
+     Validator testing 2. Functional testing 3. UI testing 4.Security testing 5.Load testing 6. Fuzz testing 7. Penetration testing.
+
+3. Ans: Differences between in Rest and soap:
+
+Rest is an architectural style protocol but soap is a xml- based message protocol. Rest uses XML or Json to send and receive data; Soap uses WSLD for communication between consumers and provider.
+In Rest Javascript is easy to call but soap javascript can call but it is difficult to implement. Rest can simply calls services via URL path but Soap involves services by calling RPC method.
+
+4. ANS:
+
+HTTP  Methods : Get, Head, Post, Put, Delete.
+Examples: GET- Representative a specific resources. Requesting in get should receive data only.
+HEAD: Ask for a response identical.
+POST: It submits an entity to the spacified resource
+PUT: Updating all fields in am article on a blog
+DELETE: Remove an article on a blog.
+
+5. Ans: The difference between post and put are post is to create a file and put is update or replace a file. If file need changes or updates by push put and replace the file but to create something new in postman we need to use post and create a file. Examples between post and put are mainly url rename such as: “HTTP POST http://www.appdomain.com/users vs HTTP PUT http://www.appdomain.com/users/123” . There we can see first example we just create a file with domain name and then specific it by /users but in put we have to rename or replace name domain name and then specific by or rename by users/123.
+
+6. ANS: HTTP status codes are 200 (ok), 201 (created), 202 (Accpeted), 401 (unauthorized), 404 (not found).
+Explanation about those code:
+
+1. 200 (ok)- it’s indicate that the client request was accept successfully. Also, it should have a response body.
+2. 201 (created)- “201 status code whenever a resource is created inside a collection. There may also be times when a new resource is created as a result of some controller action, in which case 201 would also be an appropriate response” (API handbook).
+3. 202 (Accepted)- It’s tripically used for action that take a while to process. Also, it’s mean the request is already accepted but need time to process the action.
+4. 401(unauthorized)- “A 401 error response indicates that the client tried to operate on a protected resource without providing the proper authorization. It may have provided the wrong credentials or none at all”.
+5. 404(not found)- It cann’t map the client URl to a resources but maybe available in the future.
+
+7. ANS: HTTP request divided in three parts: Requestline, Header, and body.
+HTTP response components are : Status line, Header, and body (optional).
+
+8. ANS: Components of HTTP request header:
+Host
+Content-type
+Cache-control
+
+Components of response header:
+Age
+Location
+server
+Mainly those use for give a more detailed context of the response.
+
+9. ANS: Differences about authentication and authorization:
+Authentication is the process of verifying a user’s identity and their ability to access account. It works through passwords, one time pins, other security question which answer by users. For example: when people are trying to log in their online banking they need to provided user name and password or answering security questions authentication a user by identify her that she is the one who she claims to be. On the other hand, authorization which permissions the users has within app. it s take place after authentication. Also, it can’t changed by the users. As a example: user might have authorize a financial services app to access his bank transaction history or log into a third-party app.
+
+10.ANS: API Authentication Methods are HTTP basic authentication, API key authentication, Oauth authentication, and no authentication.
+HTTP basic authentication- Authentication come through the use of HTTP, where the password and username sent alongside every API call. Can be use HTTP header and encode the username and password.
+
+API key authentication- This methods create unique key for developers and pass them alongside with every request. It’s genaratie a unique, long, hard to gues key alongwith atleast 30 characters long and not set any stander length of the key. It’s passes with alongside the API authorization header.
+
+No authentication- There is always options for applying no authentication at all. Developers can make a request a specific URL and get a response without needing any credentials or an API key.
